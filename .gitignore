@@ -1,0 +1,21 @@
+# Python Virtual Environment
+venv/
+backend/venv/
+*.pyc
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+
+# Local IDE & Tooling
+.vscode/
+.idea/
+.qodo/
+
+# Database & Secrets
+*.sqlite3
+.env
+
+# React Frontend (for later steps)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
